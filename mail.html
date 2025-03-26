@@ -13,6 +13,20 @@
     <title>To You!</title>
 </head>
 <body>
+
+
+    <audio id="myAudio" controls autoplay>
+        <source src="minnie.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('myAudio');
+            audio.currentTime = 60; // Start from 38 seconds
+            audio.play();
+        });
+    </script>
     <div class="warpper preloading">
         <div class="box">
             <div class="mail">
@@ -28,12 +42,13 @@
                         <h2>To You!</h2>
                     </div>
                     <p>
-                        You never know my feelings for you. I like you, heaven knows,
-                        earth knows, everyone knows except you. Have you ever thought
-                        you are very silly? When you are happy, you talk happily with me,
-                        when you are sad, I don't dare to say a word. Being friends with you
-                        is the thing I regret the most in my life. When will I have enough
-                        courage to break this shell called friendship and express my feelings to you?
+                        Uski khoobsurti ek ajeeb sa jadoo hai—sab
+                         ko ek nazar mein behka deti hai! Woh aankhon
+                          ka mischievous chamak aur woh baal,
+                           jo apne hi rules pe chalte hain—bas,
+                            kahin aur dekhne ka mann hi nahin karta.
+                             Ek taraf blessing, aur doosri taraf ek ultimate challenge! 😄
+                                                    -- aisi hai meri minnie
                     </p>
                     <div class="gifs_left">
                         <img id="heart__letter" src="https://media.giphy.com/media/YKUvclrGYmDKXwtphf/giphy.gif" alt="" class="animationOp">
@@ -56,10 +71,6 @@
         </div>
     </div>
 
-    <div id="copy">
-		<p class="text-center text-white text-sm">OG Creator <a
-			href="https://www.instagram.com/aoudumber.dev/reels/#">@aoudumber.dev</a></p>
-	  </div>
     
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
